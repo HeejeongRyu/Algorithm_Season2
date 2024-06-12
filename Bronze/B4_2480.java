@@ -17,7 +17,6 @@ public class B4_2480 {
 		if (aa != bb && bb != cc && aa != cc) {
 			int max = 0;
 			if (aa > bb) {
-				// cc > aa > bb 라면
 				if (cc > aa) {
 					max = cc;
 				} 
